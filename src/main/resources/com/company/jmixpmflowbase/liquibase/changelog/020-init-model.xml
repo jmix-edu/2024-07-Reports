@@ -87,6 +87,9 @@
             <column name="ENTRY_DATE" type="DATETIME"/>
             <column name="USER_ID" type="UUID"/>
             <column name="DESCRIPTION" type="CLOB"/>
+            <column name="APPROVED" type="bool" defaultValue="false">
+                <constraints nullable="false"/>
+            </column>
         </createTable>
     </changeSet>
     <changeSet id="7" author="jmixpm-flow-base">

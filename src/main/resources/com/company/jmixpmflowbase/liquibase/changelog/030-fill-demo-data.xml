@@ -113,5 +113,47 @@
             <column name="ESTIMATED_EFFORTS" value="2"/>
         </insert>
 
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="ac8209cf-0923-451d-a23a-f526501503a8"/>
+            <column name="ENTRY_DATE" valueDate="${twoDaysAgo}"/>
+            <column name="TASK_ID" value="430cdea7-974c-4723-8fa5-88e0cf665162"/>
+            <column name="TIME_SPENT" valueNumeric="3"/>
+        </insert>
+
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="c75f2b34-cfcb-459c-8087-71959163535b"/>
+            <column name="ENTRY_DATE" valueDate="${today}"/>
+            <column name="TASK_ID" value="430cdea7-974c-4723-8fa5-88e0cf665162"/>
+            <column name="TIME_SPENT" valueNumeric="2"/>
+        </insert>
+
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="48b0ebde-05ba-4429-90fa-2e51787072b7"/>
+            <column name="ENTRY_DATE" valueDate="${twoDaysAgo}"/>
+            <column name="TASK_ID" value="47086191-2e92-4015-946c-df5916d985a6"/>
+            <column name="TIME_SPENT" valueNumeric="3"/>
+        </insert>
+
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="184dc39c-4636-478e-b353-8286753555d9"/>
+            <column name="ENTRY_DATE" valueDate="${today}"/>
+            <column name="TASK_ID" value="4f867e22-a042-4ba9-89c6-65ebe417634f"/>
+            <column name="TIME_SPENT" valueNumeric="2"/>
+        </insert>
+
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="3f197ad5-2c7a-416b-ae4f-8f478193a4e5"/>
+            <column name="ENTRY_DATE" valueDate="${today}"/>
+            <column name="TASK_ID" value="9db9b040-03e6-49f0-bbbb-a898ce1b2c99"/>
+            <column name="TIME_SPENT" valueNumeric="2"/>
+        </insert>
+
+        <insert tableName="TIME_ENTRY">
+            <column name="ID" value="44ca8247-0b85-4a9f-90cd-4fb693572ef1"/>
+            <column name="ENTRY_DATE" valueDate="${today}"/>
+            <column name="TASK_ID" value="3fa7213a-e470-431e-9c18-d8d6d86570d4"/>
+            <column name="TIME_SPENT" valueNumeric="2"/>
+        </insert>
+
     </changeSet>
 </databaseChangeLog>
